@@ -1,0 +1,70 @@
+.styleBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8D2B8;
+  height: 5.25rem;
+  font-size: 1.48rem;
+  padding-bottom: 0.1rem;
+}
+
+.accountNav {
+  text-align: right;
+  list-style: none;
+  padding: 0.2rem 5.7rem;
+  letter-spacing: 0.13rem;
+}
+
+.accountNav li {
+  display: inline-block;
+  margin-left: 4.4rem;
+  font-size: 1.3rem;
+}
+
+.headerMiddleContainer {
+  display: flex;
+  justify-content: center;
+  padding: 3.1rem 0;
+  align-items: center;
+  position: relative;
+}
+
+.headerMiddleContainer img {
+  width: 20rem;
+}
+
+.headerMiddleContainer input {
+  color: #5A493E;
+  position: absolute;
+  padding: 0.9rem 3rem 0.9rem 1rem;
+  font-size: 1.3rem;
+  width: 100%;
+  max-width: 22.2rem;
+  right: 3.1rem;
+  top: 3.3rem;
+  border: 1px solid lightgray;
+  border-radius: 0.2rem;
+  background-image: url(../assets/icons/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 94%;
+  background-size: 1.3rem;
+}
+
+.storeNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.storeNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.16rem 0;
+}
+
+.storeNav li {
+  display: inline-block;
+  margin:0 2.65rem;
+  font-size: 1.7rem;
+}

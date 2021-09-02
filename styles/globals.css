@@ -1,9 +1,24 @@
+@font-face {
+  font-family: AveriaSerifBoldItalic;
+  src: url(../assets/ingredientspage_Folder/Fonts/AveriaSerif-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: AveriaSerifItalic;
+  src: url(../assets/ingredientspage_Folder/Fonts/AveriaSerif-Italic.ttf);
+}
+
+@font-face {
+  font-family: AveriaSerifLightItalic;
+  src: url(../assets/ingredientspage_Folder/Fonts/AveriaSerif-LightItalic.ttf);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, sans-serif;
 }
 
 a {

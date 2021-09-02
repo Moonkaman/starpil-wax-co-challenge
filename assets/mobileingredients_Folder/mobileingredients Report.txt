@@ -1,0 +1,258 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: mobileingredients.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1132 px x 17883 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Helvetica Light (TrueType)
+Helvetica Light Oblique (TrueType)
+Helvetica Bold (TrueType)
+AveriaSerif-LightItalic (TrueType)
+AveriaSerif-Italic (TrueType)
+AveriaSerif-BoldItalic (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/aloevshutterstock_1571835307.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 79612K, 6385 by 4256 pixels
+Dimensions: 23.884 by 15.92 points 
+Resolution: 19247.658 by 19247.658 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_535752073.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 24874K, 3560 by 2385 pixels
+Dimensions: 31.165 by 20.879 points 
+Resolution: 8224.726 by 8224.725 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/silk protein
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 88200K, 6720 by 4480 pixels
+Dimensions: 30.41 by 20.274 points 
+Resolution: 15910.412 by 15910.412 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/goji
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 61600K, 5616 by 3744 pixels
+Dimensions: 40.27 by 26.846 points 
+Resolution: 10041.115 by 10041.115 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_1381689272.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 64800K, 5760 by 3840 pixels
+Dimensions: 33.466 by 22.311 points 
+Resolution: 12392.2 by 12392.2 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_583122586.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 43808K, 4504 by 3320 pixels
+Dimensions: 32.617 by 24.043 points 
+Resolution: 9942.297 by 9942.297 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_1679028931.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 108023K, 6901 by 5343 pixels
+Dimensions: 20.734 by 16.254 points 
+Resolution: 23963.543 by 23667.094 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_1438911056.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 40354K, 4546 by 3030 pixels
+Dimensions: 25.624 by 17.079 points 
+Resolution: 12773.588 by 12773.588 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/NOLINESINSTAFEEDEVA4-13.png
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 26367K, 3000 by 3000 pixels
+Dimensions: 30.947 by 30.947 points 
+Resolution: 6979.673 by 6979.673 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_1695157414.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 37248K, 4128 by 3080 pixels
+Dimensions: 26.553 by 19.812 points 
+Resolution: 11193.473 by 11193.473 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_737513077.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 48368K, 4946 by 3338 pixels
+Dimensions: 32.778 by 22.121 points 
+Resolution: 10864.491 by 10864.491 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_1468776923.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 70312K, 6000 by 4000 pixels
+Dimensions: 29.197 by 19.465 points 
+Resolution: 14796.112 by 14796.112 pixels per inch
+
+
+/Users/alejamadrid/Desktop/Screen Shot 2020-12-15 at 5.44.11 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1509K, 878 by 440 pixels
+Dimensions: 107.588 by 53.916 points 
+Resolution: 587.577 by 587.577 pixels per inch
+
+
+/Users/alejamadrid/Desktop/Screen Shot 2020-12-15 at 5.43.30 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1559K, 893 by 447 pixels
+Dimensions: 106.706 by 53.413 points 
+Resolution: 602.551 by 602.551 pixels per inch
+
+
+/Users/alejamadrid/Desktop/Screen Shot 2020-12-15 at 5.42.33 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 2142K, 1203 by 456 pixels
+Dimensions: 107.533 by 40.76 points 
+Resolution: 805.486 by 805.486 pixels per inch
+
+
+/Users/alejamadrid/Desktop/Screen Shot 2020-12-15 at 5.43.54 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1536K, 872 by 451 pixels
+Dimensions: 105.77 by 54.704 points 
+Resolution: 593.591 by 593.591 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/logo vitamin recharge-01.jpg
+Type: CMYK
+Bits per Pixel: 32
+Channels: 4
+Size: 32871K, 3300 by 2550 pixels
+Dimensions: 56.502 by 43.661 points 
+Resolution: 4205.154 by 4205.154 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/logohyrda in.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 850K, 770 by 377 pixels
+Dimensions: 30.604 by 14.984 points 
+Resolution: 1811.526 by 1811.526 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_1640863222.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 64800K, 5760 by 3840 pixels
+Dimensions: 112.2 by 74.8 points 
+Resolution: 3696.257 by 3696.256 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/iconsmobileing-02.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 2173K, 1131 by 492 pixels
+Dimensions: 113.1 by 49.2 points 
+Resolution: 720 by 720 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/shutterstock_1483243850.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 64800K, 5760 by 3840 pixels
+Dimensions: 112.3 by 74.867 points 
+Resolution: 3692.965 by 3692.965 pixels per inch
+
+
+/Users/alejamadrid/Desktop/CLUTTER/EVA/Mobile About Us/Links/Screen Shot 2020-12-14 at 10.57.11 AM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 333K, 376 by 227 pixels
+Dimensions: 112.4 by 67.859 points 
+Resolution: 240.854 by 240.854 pixels per inch
+
+
+/Users/alejamadrid/Desktop/Screen Shot 2020-12-17 at 4.14.45 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 595K, 358 by 426 pixels
+Dimensions: 111.77 by 133 points 
+Resolution: 230.617 by 230.617 pixels per inch
+
+
+/Users/alejamadrid/Desktop/Screen Shot 2020-12-17 at 4.14.54 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 320K, 332 by 247 pixels
+Dimensions: 112.2 by 83.474 points 
+Resolution: 213.048 by 213.048 pixels per inch
