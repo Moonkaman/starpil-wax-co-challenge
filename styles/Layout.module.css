@@ -4,27 +4,27 @@
   align-items: center;
   background-color: #F8D2B8;
   height: 5.25rem;
-  font-size: 1.48rem;
+  font-size: 1.32rem;
   padding-bottom: 0.1rem;
 }
 
 .accountNav {
   text-align: right;
   list-style: none;
-  padding: 0.2rem 5.7rem;
-  letter-spacing: 0.13rem;
+  padding: 0.45rem 5.7rem;
+  letter-spacing: 0.03rem;
 }
 
 .accountNav li {
   display: inline-block;
-  margin-left: 4.4rem;
+  margin-left: 4.6rem;
   font-size: 1.3rem;
 }
 
 .headerMiddleContainer {
   display: flex;
   justify-content: center;
-  padding: 3.1rem 0;
+  padding: 3rem 0;
   align-items: center;
   position: relative;
 }
@@ -41,7 +41,7 @@
   width: 100%;
   max-width: 22.2rem;
   right: 3.1rem;
-  top: 3.3rem;
+  top: 3.05rem;
   border: 1px solid lightgray;
   border-radius: 0.2rem;
   background-image: url(../assets/icons/search-solid.svg);
@@ -60,11 +60,12 @@
 .storeNav ul {
   list-style: none;
   margin: 0;
-  padding: 0.16rem 0;
+  padding: 0.35rem 0;
 }
 
 .storeNav li {
   display: inline-block;
-  margin:0 2.65rem;
+  margin:0 2.75rem;
   font-size: 1.7rem;
+  letter-spacing: -0.05rem;
 }

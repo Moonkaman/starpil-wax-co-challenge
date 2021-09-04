@@ -1,0 +1,90 @@
+.formulasSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 18.65rem 0 0 0;
+}
+
+.formulasSection h2 {
+  font-size: 5.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Selects the first h2 in the formulas section without having to give it a class */
+.formulasSection h2:nth-child(1) {
+  color: #90B496;
+  font-family: AveriaSerifLightItalic;
+  font-weight: lighter;
+}
+
+/* Selects the second h2 in the formulas section without having to give it a class */
+.formulasSection h2:nth-child(2) {
+  color: #488077;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 5rem;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.formulasSectionImage {
+  margin-top: 8rem;
+}
+
+.formulasSectionImage img {
+  width: 100%;
+}
+
+.ecoSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12.5rem 0 0 0;
+}
+
+.ecoSection h2 {
+  font-size: 8rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Selects the first h2 in the eco section without having to give it a class */
+.ecoSection h2:nth-child(1) {
+  color: #574940;
+  font-family: AveriaSerifLightItalic;
+  font-weight: lighter;
+}
+
+/* Selects the second h2 in the eco section without having to give it a class */
+.ecoSection h2:nth-child(2) {
+  color: #488077;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 7.5rem;
+  position: relative;
+  bottom: 1.5rem;
+  margin-bottom: 0;
+}
+
+.ecoSection p {
+  font-size: 3.45rem;
+  margin: 0 0 1rem 0;
+  padding: 0 14rem 0 14rem;
+  letter-spacing: -0.12rem;
+  line-height: 3.65rem;
+  text-align: center;
+}
+
+.ecoSection p:nth-child(2) {
+  margin-top: 1rem;
+}
+
+.ecoSection p:nth-child(3) {
+  font-family: AveriaSerifBoldItalic;
+  font-size: 3.38rem;
+  padding: 0 19rem;
+  margin-bottom: 2rem;
+}

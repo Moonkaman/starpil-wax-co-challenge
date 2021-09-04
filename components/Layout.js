@@ -55,7 +55,7 @@ export default function Layout({children}) {
             <li>Collections</li>
             <li>Professional</li>
             <li>Eva Pro Rewards</li>
-            <li>About us</li>
+            <li>About Us</li>
             <li>Contact Us</li>
             <li>Quiz</li>
           </ul>
