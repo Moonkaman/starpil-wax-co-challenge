@@ -61,11 +61,12 @@
   list-style: none;
   margin: 0;
   padding: 0.35rem 0;
+  display: flex;
 }
 
 .storeNav li {
   display: inline-block;
-  margin:0 2.75rem;
+  margin:0 1rem;
   font-size: 1.7rem;
   letter-spacing: -0.05rem;
 }

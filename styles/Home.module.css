@@ -88,3 +88,43 @@
   padding: 0 19rem;
   margin-bottom: 2rem;
 }
+
+.ecoSectionImages {
+  display: flex;
+  margin: 15rem 0;
+}
+
+.ecoSectionImages img {
+  width: 15rem;
+}
+
+.elineSection {
+  text-align: center;
+  padding: 15rem 0;
+  font-family: AveriaSerifLightItalic;
+}
+
+.elineLogo img {
+  height: 24rem;
+  margin-bottom: 15rem;
+}
+
+.elineSectionMainText {
+  font-size: 3.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 11.5rem;
+  line-height: 3.7rem;
+}
+
+.elineSectionIngredients {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3.5rem;
+  margin-top: 14rem;
+  text-align: left;
+}
+
+.elineSectionIngredients ul {
+  list-style: none;
+}
