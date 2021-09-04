@@ -128,3 +128,23 @@
 .elineSectionIngredients ul {
   list-style: none;
 }
+
+.elineSectionImageItem {
+  padding: 5rem 0 0 0;
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
+.elineSectionImageItem p {
+  margin-top: 11rem;
+  font-size: 2.5rem;
+}
+
+.featuredProductsSection {
+  text-align: center;
+}
+
+.featuredProductContainer {
+  display: flex;
+  justify-content: space-evenly;
+}

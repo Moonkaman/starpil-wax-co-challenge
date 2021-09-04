@@ -10,8 +10,15 @@ import elineLogo from '../assets/icons/eline-logo.jpg'
 import silkProteinImage from '../assets/images/silk protein.jpg'
 import gojiImage from '../assets/images/goji.jpg'
 import quinoaMilkImage from '../assets/images/shutterstock_535752073.jpg'
+import featuredProductImage1 from '../assets/images/featured_product_1.jpg'
+import featuredProductImage2 from '../assets/images/featured_product_2.jpg'
 //--------------------------------------------------------------\\
 
+//----------------------- \ Component imports / ---------------------\\
+import Product from '../components/Product'
+//--------------------------------------------------------------------\\
+
+// Style Import
 import homeStyles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -88,9 +95,46 @@ export default function Home() {
 
       <div className={homeStyles.elineSectionImageItem}>
         <Image src={silkProteinImage} alt="Image of silk protein"/>
-        <p>Silk Protein</p>
-        {/* <Image src={gojiImage} alt="Image of a pile of goji berries"/>
-        <Image src={silkProteinImage} alt="Image of silk protein"/> */}
+        <p>Silk Proteins</p>
+      </div>
+
+      <div className={homeStyles.elineSectionImageItem}>
+        <Image src={gojiImage} alt="Image of a pile of goji berries"/>
+        <p>Goji</p>
+      </div>
+
+      <div className={homeStyles.elineSectionImageItem}>
+        <Image src={quinoaMilkImage} alt="Image of a splash of quinoa milk"/>
+        <p>Quinoa Milk</p>
+      </div>
+    </section>
+
+    <section className={homeStyles.featuredProductsSection}>
+      <h2>FEATURED COLLECTION</h2>
+      <div className={homeStyles.featuredProductContainer}>
+        <Product productDetails={{
+          name: "E-LINE HL LOTION",
+          category: 'Eva Professional Hair Care',
+          img: featuredProductImage1,
+          imgAlt: "Eline hl lotion bottle",
+          price: 35.95
+        }} />
+
+        <Product productDetails={{
+          name: "E-LINE DERMOCARE CONDITIONER",
+          category: 'Eva Professional Hair Care',
+          img: featuredProductImage2,
+          imgAlt: "Eline dermocare conditioner bottle",
+          price: 32.99
+        }} />
+
+        <Product productDetails={{
+          name: "E-LINE DERMOCARE Wash",
+          category: 'Eva Professional Hair Care',
+          img: featuredProductImage2,
+          imgAlt: "Eline dermocare wash bottle",
+          price: 32.99
+        }} />
       </div>
     </section>
     </>
