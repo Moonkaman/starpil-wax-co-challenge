@@ -1,9 +1,18 @@
 .productContainer {
+    text-align: center;
+    cursor: pointer;
+}
 
+.productContainer:hover {
+    border: 1px solid lightgray;
 }
 
 .productContainer img {
+    width: 15rem;
+}
 
+.productContainer img:hover {
+    width: 15.5rem;
 }
 
 .productContainer p:nth-child(1) {

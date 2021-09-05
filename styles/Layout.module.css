@@ -3,15 +3,13 @@
   justify-content: center;
   align-items: center;
   background-color: #F8D2B8;
-  height: 5.25rem;
   font-size: 1.32rem;
-  padding-bottom: 0.1rem;
+  padding: 1rem 0;
 }
 
 .accountNav {
   text-align: right;
-  list-style: none;
-  padding: 0.45rem 5.7rem;
+  padding: 0.45rem 1rem;
   letter-spacing: 0.03rem;
 }
 

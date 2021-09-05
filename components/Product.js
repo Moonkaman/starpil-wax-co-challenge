@@ -5,9 +5,9 @@ import productStyles from '../styles/Product.module.css'
 
 export default function Product({productDetails}) {
     return (
-        <div cla>
+        <div className={productStyles.productContainer}>
             <Image src={productDetails.img} alt={productDetails.imgAlt} />
-            <p className={productStyles.productContainer}>{productDetails.category}</p>
+            <p>{productDetails.category}</p>
             <p>{productDetails.name}</p>
             <p>${productDetails.price}</p>
         </div>
