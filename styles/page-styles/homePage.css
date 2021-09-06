@@ -1,0 +1,188 @@
+/* Home page global styles */
+
+section {
+  padding: 5rem;
+  text-align: center;
+}
+
+.image-item {
+  padding: 5rem 0 0 0;
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
+.image-item p {
+  margin-top: 11rem;
+  font-size: 2.5rem;
+}
+
+/* ------------FORMULAS SECTION------------ */
+
+.formulas-section h2 {
+  font-size: 5.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Selects the first h2 in the formulas section without having to give it a class */
+.formulas-section h2:nth-child(1) {
+  color: #90B496;
+  font-family: AveriaSerifLightItalic;
+  font-weight: lighter;
+}
+
+/* Selects the second h2 in the formulas section without having to give it a class */
+.formulas-section h2:nth-child(2) {
+  color: #488077;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 5rem;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.formulas-section-image {
+  margin-top: 8rem;
+}
+
+/* ------------ECO SECTION------------ */
+
+.eco-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12.5rem 0 0 0;
+}
+
+.eco-section h2 {
+  font-size: 8rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Selects the first h2 in the eco section without having to give it a class */
+.eco-section h2:nth-child(1) {
+  color: #574940;
+  font-family: AveriaSerifLightItalic;
+  font-weight: lighter;
+}
+
+/* Selects the second h2 in the eco section without having to give it a class */
+.eco-section h2:nth-child(2) {
+  color: #488077;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 7.5rem;
+  position: relative;
+  bottom: 1.5rem;
+  margin-bottom: 0;
+}
+
+.eco-section p {
+  font-size: 3.45rem;
+  margin: 0 0 1rem 0;
+  padding: 0 14rem 0 14rem;
+  letter-spacing: -0.12rem;
+  line-height: 3.65rem;
+  text-align: center;
+}
+
+.eco-section p:nth-child(2) {
+  margin-top: 1rem;
+}
+
+.eco-section p:nth-child(3) {
+  font-family: AveriaSerifBoldItalic;
+  font-size: 3.38rem;
+  padding: 0 19rem;
+  margin-bottom: 2rem;
+}
+
+.eco-section-images {
+  display: flex;
+  margin: 15rem 0;
+}
+
+.eco-section-images img {
+  width: 15rem;
+}
+
+/* ------------ELINE SECTION------------ */
+
+.eline-section {
+  text-align: center;
+  padding: 15rem 0;
+  font-family: AveriaSerifLightItalic;
+}
+
+.eline-section .logo img {
+  height: 24rem;
+  margin-bottom: 15rem;
+}
+
+.eline-section .main-text {
+  font-size: 3.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 11.5rem;
+  line-height: 3.7rem;
+}
+
+.eline-section .ingredients {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3.5rem;
+  margin-top: 14rem;
+  text-align: left;
+}
+
+.eline-section .ingredients ul {
+  list-style: none;
+}
+
+.featured-products-section {
+  text-align: center;
+  padding: 0 12rem;
+}
+
+.featured-products-section h2 {
+  font-size: 2.15rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 6rem;
+}
+
+.featured-products-section .product-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+
+.vitamin-section .main-text {
+  font-family: AveriaSerifLightItalic;
+  font-size: 3.5rem;
+  max-width: 56rem;
+  margin: 0 auto 10rem auto;
+  line-height: 3.7rem;
+}
+
+.vitamin-section .vitamins-and-ingredients-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 10rem;
+}
+
+.vitamin-section .vitamins-and-ingredients-container span {
+  margin: 0 1rem;
+  max-width: 17rem;
+}
+
+.vitamin-section .vitamins-and-ingredients-container span h3 {
+  font-weight: bold;
+}
+
+.vitamin-section .vitamins-and-ingredients-container span p {
+  font-family: AveriaSerifLightItalic;
+  font-size: 1.3rem;
+}

@@ -9,8 +9,8 @@ import Head from 'next/head'
 // A component to serve optimized images
 import Image from 'next/image'
 
-
-import evaHairCarePic from '../assets/ingredientspage_Folder/Links/evahaircarelogo.jpg'
+// Image import
+import evaHairCarePic from '../assets/icons/evahaircarelogo.jpg'
 
 
 // Importing styles

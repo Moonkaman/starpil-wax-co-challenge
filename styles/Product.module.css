@@ -1,10 +1,22 @@
 .productContainer {
-    text-align: center;
-    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: box-shadow 0.2s ease;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.productContainer .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .productContainer:hover {
-    border: 1px solid lightgray;
+    box-shadow: rgb(176, 206, 226) 0 0 5px;
 }
 
 .productContainer img {
@@ -16,5 +28,20 @@
 }
 
 .productContainer p:nth-child(1) {
-    color: red
+    font-weight: bold;
+}
+
+.productContainer p:nth-child(2) {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.productContainer button {
+    position: relative;
+    top: 100px;
+    transition: top 0.2s ease 
+}
+
+.productContainer:hover button {
+    top: 0px;
 }
