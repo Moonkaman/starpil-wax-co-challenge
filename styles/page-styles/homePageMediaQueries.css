@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1000px) {
+  section {
+    padding: 1rem !important;
+  }
+
+  .formulas-section h2:nth-child(1) {
+    font-size: 3rem;
+  }
+
+  .formulas-section h2:nth-child(2) {
+    font-size: 4rem !important;
+  }
+
+  .eco-section h2 {
+    font-size: 4rem !important;
+    margin: 0;
+    text-align: center;
+  }
+
+  .eco-section p {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+    padding: 0 !important;
+  }
+
+  .eline-section .ingredients {
+    font-size: 1.5rem !important;
+  }
+}

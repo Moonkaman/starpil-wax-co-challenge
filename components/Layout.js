@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -17,9 +17,17 @@ import evaHairCarePic from '../assets/icons/eva-hair-care-logo.jpg'
 // Importing styles
 import layoutStyles from '../styles/Layout.module.css'
 
+// Component imports
+import { MobileNav } from './MobileNav'
+
 // This component wraps the application so anything added to this component will show up on every page
 // In this case I'm using it to set the title, meta, favicon and add the navbar to everypage
 export default function Layout({children}) {
+  const [mobileNavOpen, setMobileNavOpen] = useState(false)
+
+  const closeMobileNav = () => setMobileNavOpen(false)
+  const openMobileNav = () => setMobileNavOpen(true)
+
   return (
     <>
       <Head>
@@ -30,6 +38,7 @@ export default function Layout({children}) {
       </Head>
 
       <header>
+        <MobileNav open={mobileNavOpen} close={closeMobileNav}  />
         <div className={layoutStyles.styleBanner}>
           40% OFF AND FREE SHIPPING SITEWIDE!
         </div>
@@ -43,22 +52,33 @@ export default function Layout({children}) {
         <div>
           <div className={layoutStyles.headerMiddleContainer}>
             <Image src={evaHairCarePic} alt="Eva hair care logo"/>
-            <div>
-              <FontAwesomeIcon icon={faSearch} />
-              <input placeholder="Search" />
-            </div>
+            <input placeholder="Search" />
           </div>
           <div className="navBottom">
         </div>
         <nav className={layoutStyles.storeNav}>
           <ul>
-            <li>Home</li>
-            <li>Collections</li>
-            <li>Professional</li>
-            <li>Eva Pro Rewards</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Quiz</li>
+            <a href="#">
+              <li>Home</li>
+            </a>
+            <a href="#">
+              <li>Collections</li>
+            </a>
+            <a href="#">
+              <li>Professional</li>
+            </a>
+            <a href="#">
+              <li>Eva Pro Rewards</li>
+            </a>
+            <a href="#">
+              <li>About Us</li>
+            </a>
+            <a href="#">
+              <li>Contact Us</li>
+            </a>
+            <a href="#">
+              <li>Quiz</li>
+            </a>
           </ul>
         </nav>
         </div>

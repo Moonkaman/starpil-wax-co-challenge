@@ -8,6 +8,7 @@
     overflow: hidden;
     border: 1px solid white;
     max-width: 20rem;
+    margin: 0 0.5rem;
 }
 
 .productContainer .content {
