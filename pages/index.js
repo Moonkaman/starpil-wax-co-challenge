@@ -315,7 +315,7 @@ export default function Home() {
 
         <div className="image-item">
           <Image src={yellowFlower} alt="Image of a St. John's Wort flower"/>
-          <p>Saint John's Wort</p>
+          <p>{"Saint John's Wort"}</p>
         </div>
       </section>
 
