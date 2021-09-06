@@ -52,19 +52,15 @@
 .mobileNavBtn {
   display: none;
   color: black;
-}
-
-.mobileNavBtn svg {
-  width: 2rem
+  width: 2rem;
+  margin-right: 2rem;
 }
 
 .mobileSearchBtn {
   display: none;
   color: black;
-}
-
-.mobileSearchBtn svg {
   width: 2rem;
+  margin-left: 2rem;
 }
 
 .mobileSearchContainer input{
@@ -102,6 +98,14 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .accountNav a:nth-child(1) {
+    display: none;
+  }
+
+  .accountNav a:nth-child(3) {
+    display: none;
+  }
+
   .headerMiddleContainer {
     justify-content: space-between;
     padding: 1rem;

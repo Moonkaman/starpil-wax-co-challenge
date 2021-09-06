@@ -13,7 +13,7 @@ export default function Product({productDetails}) {
                     <p>{productDetails.category}</p>
                     <p>{productDetails.name}</p>
                     <p>${productDetails.price}</p>
-                    <Button className="w-100">Add to cart</Button>
+                    <Button className="w-100" onClick={productDetails.addCartItem}>Add to cart</Button>
                 </Card.Body>
             </div>
         </Card>

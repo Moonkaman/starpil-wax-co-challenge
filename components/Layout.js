@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import { Button, Collapse } from 'react-bootstrap'
+import { Collapse, Toast, ToastContainer } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
@@ -26,10 +26,26 @@ import { MobileNav } from './MobileNav'
 export default function Layout({children}) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
+  const [cartItems, setCartItems] = useState(0)
+  const [toasts, setToasts] = useState([])
 
   const closeMobileNav = () => setMobileNavOpen(false)
   const openMobileNav = () => setMobileNavOpen(true)
   const toggleSearch = () => setSearchOpen(!searchOpen)
+
+  const removeToast = (toastIndex) => {
+    setToasts(toasts.filter((toast, index) => index !== toastIndex))
+  }
+
+  const addCartItem = () => {
+    setCartItems(cartItems + 1)
+    setToasts([
+      ...toasts,
+      "Item successfully added to cart"
+    ])
+  }
+
+  console.log(toasts)
 
   return (
     <>
@@ -40,6 +56,27 @@ export default function Layout({children}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* inline styles to get the toast container in a fixed position and add some padding */}
+      <ToastContainer position="bottom-end" style={{position: 'fixed !important', padding: '1rem'}}>
+        {toasts.map((toastMessage, index) => {
+          // CSS in JS
+          const toastHeaderSyles = {
+            justifyContent: 'space-between'
+          }
+
+          return (
+            <Toast onClose={() => removeToast(index)} key={index} delay={3000} autohide>
+              <Toast.Header style={toastHeaderSyles}>
+                Item Added to Cart
+              </Toast.Header>
+              <Toast.Body>
+                {toastMessage}
+              </Toast.Body>
+            </Toast>
+          )
+        })}
+      </ToastContainer>
+
       <header>
         <MobileNav open={mobileNavOpen} close={closeMobileNav}  />
         <div className={layoutStyles.styleBanner}>
@@ -47,17 +84,23 @@ export default function Layout({children}) {
         </div>
         <nav className={layoutStyles.accountNav}>
           <ul>
-            <li>ACCOUNT</li>
-            <li>CART (0)</li>
-            <li>CHECKOUT</li>
+            <a href="#">
+              <li>ACCOUNT</li>
+            </a>
+            <a href="#">
+              <li>CART ({cartItems})</li>
+            </a>
+            <a href="#">
+              <li>CHECKOUT</li>
+            </a>
           </ul>
         </nav>
         <div>
           <div className={layoutStyles.headerMiddleContainer}>
-            <Button variant="light" className={layoutStyles.mobileNavBtn} onClick={openMobileNav}><FontAwesomeIcon icon={faBars} /></Button>
+            <FontAwesomeIcon icon={faBars} className={layoutStyles.mobileNavBtn} onClick={openMobileNav} />
             <Image src={evaHairCarePic} alt="Eva hair care logo"/>
             <input placeholder="Search" />
-            <Button variant="light" className={layoutStyles.mobileSearchBtn} onClick={toggleSearch}><FontAwesomeIcon icon={faSearch} /></Button>
+            <FontAwesomeIcon icon={faSearch} className={layoutStyles.mobileSearchBtn} onClick={toggleSearch} />
           </div>
           <div className="navBottom">
         </div>
@@ -93,7 +136,7 @@ export default function Layout({children}) {
         </nav>
         </div>
       </header>
-      {children}
+      {React.cloneElement(children, {addCartItem})}
       <footer>
         <hr />
         <div className="content">

@@ -40,7 +40,7 @@ import womanLookingDown from '../assets/images/woman-looking-down.jpg'
 import Product from '../components/Product'
 //--------------------------------------------------------------------\\
 
-export default function Home() {
+export default function Home({addCartItem}) {
   return (
     <>
       <section className="formulas-section">
@@ -71,7 +71,9 @@ export default function Home() {
         </div>
       </section>
 
-      <Image src={leafWoman} alt="Woman hiding behind leaves" />
+      <div className="hero-shot">
+        <Image src={leafWoman} alt="Woman hiding behind leaves" />
+      </div>
         
       <section className="eline-section">
         <div className="logo">
@@ -135,7 +137,8 @@ export default function Home() {
             category: 'Eva Professional Hair Care',
             img: featuredProductImage1,
             imgAlt: "Eline hl lotion bottle",
-            price: 35.95
+            price: 35.95,
+            addCartItem
           }} />
 
           <Product productDetails={{
@@ -143,7 +146,8 @@ export default function Home() {
             category: 'Eva Professional Hair Care',
             img: featuredProductImage2,
             imgAlt: "Eline dermocare conditioner bottle",
-            price: 32.99
+            price: 32.99,
+            addCartItem
           }} />
 
           <Product productDetails={{
@@ -151,7 +155,8 @@ export default function Home() {
             category: 'Eva Professional Hair Care',
             img: featuredProductImage2,
             imgAlt: "Eline dermocare wash bottle",
-            price: 32.99
+            price: 32.99,
+            addCartItem
           }} />
         </div>
       </section>
@@ -192,24 +197,27 @@ export default function Home() {
               name: "VITAMIN RECHARGE DETOX & CO.",
               category: 'Eva Professional Hair Care',
               img: featuredProductImage3,
-              imgAlt: "Eline hl lotion bottle",
-              price: 5.99
+              imgAlt: "VITAMIN RECHARGE DETOX & CO.",
+              price: 5.99,
+              addCartItem
             }} />
 
             <Product productDetails={{
               name: "VITAMIN RECHARGE THE ORIGINAL",
               category: 'Eva Professional Hair Care',
               img: featuredProductImage4,
-              imgAlt: "Eline dermocare conditioner bottle",
-              price: 5.99
+              imgAlt: "VITAMIN RECHARGE THE ORIGINAL",
+              price: 5.99,
+              addCartItem
             }} />
 
             <Product productDetails={{
               name: "VITAMIN RECHARGE BUTTER",
               category: 'Eva Professional Hair Care',
               img: featuredProductImage5,
-              imgAlt: "Eline dermocare wash bottle",
-              price: 29.99
+              imgAlt: "VITAMIN RECHARGE BUTTER",
+              price: 29.99,
+              addCartItem
             }} />
           </div>
       </section>
@@ -268,24 +276,27 @@ export default function Home() {
               name: "CAPILO ENERGIKUM SHAMPOO N.02",
               category: 'Eva Professional Hair Care',
               img: featuredProductImage6,
-              imgAlt: "Eline hl lotion bottle",
-              price: 19.99
+              imgAlt: "CAPILO ENERGIKUM SHAMPOO N.02",
+              price: 19.99,
+              addCartItem
             }} />
 
             <Product productDetails={{
               name: "CAPILO EKILIBRIUM OILY SCALP AND DRY HAIR REGIMEN",
               category: 'Eva Professional Hair Care',
               img: featuredProductImage7,
-              imgAlt: "Eline dermocare conditioner bottle",
-              price: 85.99
+              imgAlt: "CAPILO EKILIBRIUM OILY SCALP AND DRY HAIR REGIMEN",
+              price: 85.99,
+              addCartItem
             }} />
 
             <Product productDetails={{
               name: "CAPILO VITALIKUM PEELING N.22",
               category: 'Eva Professional Hair Care',
               img: featuredProductImage8,
-              imgAlt: "Eline dermocare wash bottle",
-              price: 34.99
+              imgAlt: "CAPILO VITALIKUM PEELING N.22",
+              price: 34.99,
+              addCartItem
             }} />
           </div>
       </section>
@@ -327,7 +338,8 @@ export default function Home() {
               category: 'Eva Professional Hair Care',
               img: featuredProductImage9,
               imgAlt: "HYDRA-IN BEAUTY OIL N.73",
-              price: 15.99
+              price: 15.99,
+              addCartItem
             }} />
 
             <Product productDetails={{
@@ -335,7 +347,8 @@ export default function Home() {
               category: 'Eva Professional Hair Care',
               img: featuredProductImage10,
               imgAlt: "HYDRA-IN CARTHAMUS DENSI-MOUSSE N.43",
-              price: 17.99
+              price: 17.99,
+              addCartItem
             }} />
 
             <Product productDetails={{
@@ -343,12 +356,14 @@ export default function Home() {
               category: 'Eva Professional Hair Care',
               img: featuredProductImage11,
               imgAlt: "HYDRA-IN CARTHAMUS LIGHT CREAM N.44",
-              price: 19.99
+              price: 19.99,
+              addCartItem
             }} />
           </div>
       </section>
-
-      <Image src={womanLookingDown} alt="Woman looking down at a plant" />
+      <div className="hero-shot">
+        <Image src={womanLookingDown} alt="Woman looking down at a plant" />
+      </div>
       <div className="questions">
         <p>Have some more questions? <a href="#">See Our FAQs</a> or <a href="#">Contact Us</a></p>
       </div>

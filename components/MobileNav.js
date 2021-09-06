@@ -1,11 +1,14 @@
 import React from 'react'
 import { Offcanvas, ListGroup } from 'react-bootstrap'
 
-// CSS in JS example
-
+// CSS in JS examples
 const canvasHeaderStyles = {
   justifyContent: 'space-between',
   padding: '2rem 1rem'
+}
+
+const accountListGroupStyles = {
+  marginBottom: '2rem'
 }
 
 export const MobileNav = ({open, close}) => {
@@ -15,6 +18,13 @@ export const MobileNav = ({open, close}) => {
         Navigation
       </Offcanvas.Header>
       <Offcanvas.Body>
+        {/* These are the buttons that are gone from the top of the page in the mobile version */}
+        <ListGroup style={accountListGroupStyles}>
+          <ListGroup.Item action href="#">Account</ListGroup.Item>
+          <ListGroup.Item action href="#">Checkout</ListGroup.Item>
+        </ListGroup>
+
+        {/* These are the normal navigation buttons */}
         <ListGroup>
           <ListGroup.Item action href="#">Home</ListGroup.Item>
           <ListGroup.Item action href="#">Collections</ListGroup.Item>
