@@ -26,7 +26,7 @@ I chose to use Next.js because I thought it would be fun to learn a new technolo
 Some of the things I would like to look into given more time would be the image load times, I think I have minified the images as much as possible but some of them still take a second to load before the website is cached. There are some glitches with the font where it looks like a chunk gets cut off for some reason, I'm not entirely sure why that is. Lastly I would like to research project structure for Next.js a little bit more and see if how I did it was a reasonable way to do it or if there are better ways to structure and organize your projects.
 
 ## Lighthouse Scores (From my own machine on the hosted website)
-Performance: 95 / 100
-Accessibility: 92 / 100
-Best Practices: 100 / 100
-SEO: 92 / 100
+- Performance: 95 / 100
+- Accessibility: 92 / 100
+- Best Practices: 100 / 100
+- SEO: 92 / 100
