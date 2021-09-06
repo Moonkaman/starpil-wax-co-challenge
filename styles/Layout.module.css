@@ -1,3 +1,5 @@
+/* Styles specific to the Layout.js component */
+
 .styleBanner {
   display: flex;
   justify-content: center;
@@ -97,6 +99,8 @@
   letter-spacing: -0.05rem;
 }
 
+
+/* Media Queries for the Layout.js component */
 @media only screen and (max-width: 1000px) {
   .accountNav a:nth-child(1) {
     display: none;

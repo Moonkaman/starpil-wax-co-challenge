@@ -1,3 +1,5 @@
+/* Global styles that will apply to all pages */
+
 @font-face {
   font-family: AveriaSerifLightItalic;
   src: url(../public/fonts/AveriaSerif-LightItalic.ttf);
@@ -66,6 +68,10 @@ footer span {
   max-width: 25rem;
 }
 
+footer span .email-input {
+  display: flex;
+}
+
 footer span .email-input input {
   padding: 0.8rem;
   border: 1px solid lightgray;
@@ -103,5 +109,8 @@ footer span ul li svg {
   margin-right: 0.1rem;
 }
 
+/* Importing the home page specific styles */
 @import url(./page-styles/homePage.css);
+
+/* Importing media queries that will affect the global styles */
 @import url(./page-styles/globalsMediaQueries.css);

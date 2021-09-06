@@ -21,8 +21,12 @@ import layoutStyles from '../styles/Layout.module.css'
 // Component imports
 import { MobileNav } from './MobileNav'
 
-// This component wraps the application so anything added to this component will show up on every page
-// In this case I'm using it to set the title, meta, favicon and add the navbar to everypage
+/*
+  This component wraps the application so anything added to this component will show up on every page
+  In this case I'm using it to set the title, meta, and add the navbar and footer to everypage
+
+  I'm also using it to pass along my psuedo-cart item data by using `{React.cloneElement(children, {addCartItem})}` on line 143
+*/
 export default function Layout({children}) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)

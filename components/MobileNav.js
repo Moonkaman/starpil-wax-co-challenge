@@ -11,6 +11,7 @@ const accountListGroupStyles = {
   marginBottom: '2rem'
 }
 
+// This is a Offcanvas component from bootstrap (https://react-bootstrap.github.io/components/offcanvas/) and adds a drawer the the left side of the screen for mobile navigation 
 export const MobileNav = ({open, close}) => {
   return (
     <Offcanvas show={open} onHide={close}>

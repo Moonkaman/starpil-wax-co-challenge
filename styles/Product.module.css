@@ -1,3 +1,5 @@
+/* Styles specific to the Product.js component */
+
 .productContainer {
     display: flex;
     justify-content: flex-end;
