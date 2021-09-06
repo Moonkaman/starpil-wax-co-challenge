@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 
+import { Button, Collapse } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
 
 // A component from Next.js that lets me change what's in the head of the document
@@ -24,9 +25,11 @@ import { MobileNav } from './MobileNav'
 // In this case I'm using it to set the title, meta, favicon and add the navbar to everypage
 export default function Layout({children}) {
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
+  const [searchOpen, setSearchOpen] = useState(false)
 
   const closeMobileNav = () => setMobileNavOpen(false)
   const openMobileNav = () => setMobileNavOpen(true)
+  const toggleSearch = () => setSearchOpen(!searchOpen)
 
   return (
     <>
@@ -51,11 +54,18 @@ export default function Layout({children}) {
         </nav>
         <div>
           <div className={layoutStyles.headerMiddleContainer}>
+            <Button variant="light" className={layoutStyles.mobileNavBtn} onClick={openMobileNav}><FontAwesomeIcon icon={faBars} /></Button>
             <Image src={evaHairCarePic} alt="Eva hair care logo"/>
             <input placeholder="Search" />
+            <Button variant="light" className={layoutStyles.mobileSearchBtn} onClick={toggleSearch}><FontAwesomeIcon icon={faSearch} /></Button>
           </div>
           <div className="navBottom">
         </div>
+        <Collapse className={layoutStyles.mobileSearchContainer} in={searchOpen}>
+          <div>
+            <input placeholder="Search" />
+          </div>
+        </Collapse>
         <nav className={layoutStyles.storeNav}>
           <ul>
             <a href="#">
