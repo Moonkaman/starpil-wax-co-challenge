@@ -2,6 +2,7 @@ import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookSquare, faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
 
 // A component from Next.js that lets me change what's in the head of the document
 import Head from 'next/head'
@@ -10,7 +11,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 // Image import
-import evaHairCarePic from '../assets/icons/evahaircarelogo.jpg'
+import evaHairCarePic from '../assets/icons/eva-hair-care-logo.jpg'
 
 
 // Importing styles
@@ -61,8 +62,65 @@ export default function Layout({children}) {
           </ul>
         </nav>
         </div>
-        {children}
       </header>
+      {children}
+      <footer>
+        <hr />
+        <div className="content">
+          <span>
+            <h3>MAIN MENU</h3>
+            <ul>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Collections</li>
+              </a>
+              <a href="#">
+                <li>Professional</li>
+              </a>
+              <a href="#">
+                <li>Eva Pro Rewards</li>
+              </a>
+              <a href="#">
+                <li>About Us</li>
+              </a>
+              <a href="#">
+                <li>Contact Us</li>
+              </a>
+              <a href="#">
+                <li>Quiz</li>
+              </a>
+            </ul>
+          </span>
+
+          <span>
+            <h3>FOLLOW US OUT THERE</h3>
+            <ul>
+              <a href="#">
+                <li><FontAwesomeIcon icon={faFacebookSquare} size="xs"/> Facebook</li>
+              </a>
+              <a href="#">
+                <li><FontAwesomeIcon icon={faInstagramSquare} size="xs"/> Instagram</li>
+              </a>
+            </ul>
+          </span>
+
+          <span>
+            <h3>WE ARE EVA</h3>
+            <p>A brand with a mission to create cutting edge, effective eco-hair care for the modern woman.</p>
+          </span>
+
+          <span>
+            <h3>NEWSLETTER</h3>
+            
+            <div className="email-input">
+              <input type="text" placeholder="your@email.com" />
+              <button>SUBSCRIBE</button>
+            </div>
+          </span>
+        </div>
+      </footer>
     </>
   )
 }

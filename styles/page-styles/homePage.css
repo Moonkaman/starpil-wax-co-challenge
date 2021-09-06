@@ -1,3 +1,5 @@
+@import url(./homePageMediaQueries.css);
+
 /* Home page global styles */
 
 section {
@@ -14,6 +16,7 @@ section {
 .image-item p {
   margin-top: 11rem;
   font-size: 2.5rem;
+  font-family: AveriaSerifLightItalic;
 }
 
 /* ------------FORMULAS SECTION------------ */
@@ -143,18 +146,18 @@ section {
 
 .featured-products-section {
   text-align: center;
-  padding: 0 12rem;
+  padding: 5rem 12rem;
 }
 
 .featured-products-section h2 {
-  font-size: 2.15rem;
+  font-size: 1.5rem;
   letter-spacing: 0.05rem;
   margin-bottom: 6rem;
 }
 
 .featured-products-section .product-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* align-items: flex-end; */
 }
 
@@ -185,4 +188,77 @@ section {
 .vitamin-section .vitamins-and-ingredients-container span p {
   font-family: AveriaSerifLightItalic;
   font-size: 1.3rem;
+}
+
+.capilo-section .logo {
+  margin-top: 10rem;
+}
+
+.capilo-section .logo img {
+  width: 35rem;
+}
+
+.capilo-section .main-text {
+  font-size: 2rem;
+  max-width: 22rem;
+  margin: 10rem auto;
+  line-height: 1.8rem;
+  font-family: AveriaSerifLightItalic;
+}
+
+.capilo-section .lists {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  font-family: AveriaSerifBoldItalic;
+  font-size: 1.4rem;
+}
+
+.capilo-section .lists ul {
+  list-style: none;
+}
+
+.hydrain-section .logo{
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.hydrain-section .main-text {
+  font-size: 2rem;
+  max-width: 35rem;
+  margin: 10rem auto;
+  line-height: 1.8rem;
+  font-family: AveriaSerifLightItalic;
+}
+
+.hydrain-section .oils {
+  display: flex;
+  justify-content: center;
+}
+
+.hydrain-section .oils p {
+  font-family: AveriaSerifLightItalic;
+  font-size: 1.8rem;
+  margin: 0 3rem;
+}
+
+.questions {
+  background-color: #A4706B;
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding: 0.8rem;
+  margin: 0;
+  overflow: hidden;
+  margin-top: -7px;
+  text-align: center;
+}
+
+.questions a {
+  text-decoration: underline;
+}
+
+.questions p {
+  margin: 0;
 }
