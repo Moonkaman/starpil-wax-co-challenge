@@ -43,7 +43,7 @@ section {
 }
 
 .formulas-section-image {
-  margin-top: 8rem;
+  margin: 15rem 0 0rem 0;
 }
 
 /* ------------ECO SECTION------------ */
@@ -156,7 +156,6 @@ section {
 .featured-products-section .product-container {
   display: flex;
   justify-content: space-evenly;
-  /* align-items: flex-end; */
 }
 
 .vitamin-section .main-text {

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 //----------------------- \ Image imports / ---------------------\\
-import ingredientsImage from '../assets/ingredientspage_Folder/Links/iconsingredientspage-02.png'
+import ingredientsImage from '../assets/icons/iconsingredientspage-02.png'
 import aloeImage from '../assets/images/aloe.jpg'
 import bambooImage from '../assets/images/bamboo.jpg'
 import branchImage from '../assets/images/branch.jpg'

@@ -32,6 +32,10 @@ body {
   color: #52443A;
 }
 
+ul {
+  padding: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
